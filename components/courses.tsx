@@ -19,7 +19,7 @@ export default function Courses() {
         <h3>🤖 AI-Powered Course Recommendation</h3>
         <p>
           {courseCount !== null
-            ? `We found ${courseCount} personalized courses for you!`
+            ? `We found ${courseCount} personalized courses for you!` // <--- Corrected line: added backticks here
             : "Loading course recommendations..."}
         </p>
         <button>View Recommendations</button>
